@@ -16,16 +16,17 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexDirection: 'row',
+    // alignItems: 'center',
+    justifyContent: 'space-between',
+    margin: 20
   },
   logo: {
     width: 74, 
     color: 'blue', 
     height: 15,
-    alignSelf: 'flex-start'
+    marginTop: 18
   },
   button: {
     backgroundColor: 'black',
