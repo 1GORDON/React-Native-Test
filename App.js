@@ -52,6 +52,38 @@ export default function App() {
             source={require('./assets/images/landing-image-1.png')}
         />
       </View>
+      <View style={styles.socialIconsContainer}>
+        <View style={styles.buttonCircle}>
+          <Image
+                style={styles.socialIcons}
+                source={require('./assets/images/facebook.png')}
+          />
+        </View>
+        <View style={styles.buttonCircle}>
+          <Image
+                style={styles.socialIcons}
+                source={require('./assets/images/twitter.png')}
+          />
+        </View>
+        <View style={styles.buttonCircle}>
+          <Image
+                style={styles.socialIcons}
+                source={require('./assets/images/instagram.png')}
+          />
+        </View>
+        <View style={styles.buttonCircle}>
+          <Image
+                style={styles.socialIcons}
+                source={require('./assets/images/tiktok.png')}
+          />
+        </View>
+        <View style={styles.buttonCircle}>
+          <Image
+                style={styles.socialIcons}
+                source={require('./assets/images/youtube.png')}
+          />
+        </View>
+      </View>
     </View>
   );
 }
@@ -134,5 +166,28 @@ const styles = StyleSheet.create({
     backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  socialIconsContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 150
+  },
+  buttonCircle: {
+    width: 40,
+    height: 40,
+    borderColor: 'black',
+    borderWidth: 1,
+    borderRadius: 200,
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: 5
+  },
+  socialIcons: {
+    width: 24,
+    height: 24,
+    margin: 10,
+    borderColor: 'black',
+    borderRadius: 100
   }
 });
