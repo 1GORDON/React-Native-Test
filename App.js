@@ -40,6 +40,18 @@ export default function App() {
         <Text style={styles.textOne}>Coming Soon</Text>
         <Text style={styles.textTwo}>Get Notified When we Launch</Text>
       </View>
+      <View style={styles.notifyButtonContainer}>
+        <TouchableOpacity style={styles.notifyButton}>
+          <Text style={styles.text}>Notify Me</Text>
+        </TouchableOpacity>
+      </View>
+      <View style={styles.imageOneContainer}>
+        <Text>Don't worry, we won't spam you :)</Text>
+        <Image
+            style={styles.landingImageOne}
+            source={require('./assets/images/landing-image-1.png')}
+        />
+      </View>
     </View>
   );
 }
@@ -58,7 +70,7 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: 'black',
-    borderRadius: 6,
+    borderRadius: 4,
     width: 97,
     height: 32,
     flexDirection: 'row',
@@ -103,5 +115,24 @@ const styles = StyleSheet.create({
   landingImageOne: {
     width: 350,
     height: 396
+  },
+  notifyButtonContainer: {
+    margin: 10,
+    width: 340,
+    height: 45,
+    borderRadius: 100,
+    borderColor: 'black',
+    borderWidth: 1,
+    alignItems: 'flex-end',
+    justifyContent: 'center'
+  },
+  notifyButton: {
+    marginRight: 5,
+    width: 100,
+    height: 36,
+    borderRadius: 100,
+    backgroundColor: 'black',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
