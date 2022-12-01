@@ -210,3 +210,4 @@ const styles = StyleSheet.create({
     marginTop: 15
   }
 });
+// Build with no Custom components. Can be improved with custom components, props and state.
