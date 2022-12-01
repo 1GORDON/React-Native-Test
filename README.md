@@ -2,6 +2,8 @@
 In this project I will design a simple UI for a mobile application (Android) using React-Native. A Figma template with the design is provided.
 
 # Screen-shots:
+![first-page](https://user-images.githubusercontent.com/63917725/202902941-df4953fb-dcd3-49b7-8dbc-b37120f5d2f2.PNG)
+![second-page](https://user-images.githubusercontent.com/63917725/202902950-7747bd88-3976-45d3-bc70-be3c199bfa82.PNG)
 
 
 In this project i acheived the following
