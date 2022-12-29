@@ -210,4 +210,3 @@ const styles = StyleSheet.create({
     marginTop: 15
   }
 });
-// Built with no components
